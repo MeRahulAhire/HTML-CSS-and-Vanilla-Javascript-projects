@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0%;
+    background-color: white;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+
+}
+header{
+    background-color: greenyellow;
+    color: #132afa;
+    padding-top: 25px;
+    min-height: 70px;
+    border-bottom: navy 5px solid;
+
+}
+header a{
+    color: red;
+    text-decoration: wavy;
+    text-emphasis: bold;
+    text-transform: uppercase;
+    word-spacing: 1.6em;
+    font-size: 15px;
+    
+
+}
+input{
+    margin-block-start: 10px;
+    border-color: blue;
+    background: ;
+    color:red;
+    text-emphasis: bold
+
+}
+.button1{
+    height: 30px;
+    background: red;
+    overflow: hidden;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    
+
+}
+header ul{
+    margin: 0px;
+    padding: 0%;
+
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 px;
+}
+header #branding{
+    float: left
+}
+header #branding h1{
+    max-resolution: 0px;
+}
+
+header nav{
+    float: right 100px;
+    margin-top: 10px;   
+}
+header .highlight, header .current a
+{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+/*showcase*/
+#showcase{
+    min-height: 400px;
+    background:url('../image/showcase.jpg') no-repeat center ;
+    background-size: 100%;
+     text-align: center;
+     color:white;
+
+    
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 50px;
+    
+    margin-bottom: 10px;
+    
+}
+#showcase p{
+    font-size: 20px;
+
+}
+#newsletter{
+    padding: 15px;
+    color: white;
+    background:rgb(51, 5, 104);
+    
+}
+
+#newsletter form
+{
+    float: right;
+    margin-top: 15px;
+    
+
+
+
+
+}
+
+#newsletter input[type='email']{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+
+
+
+}
+#boxes{
+    margin-top: 20px;
+    text-align: center;
+
+}
+#boxes .box{
+    
+    
+    widows: 30px;
+    padding:10px;
+}
+
+footer{
+    padding:30px;
+    background-color: orangered;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
