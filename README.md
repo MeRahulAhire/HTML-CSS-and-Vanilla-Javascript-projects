@@ -1,2 +1,3 @@
-# dypfacemash
-this is an open source repositories for my own project of making social networking website just like facemash.com which mark zukerberg made in harvard university
+# Sample-Projects
+these are the couple of projects which i have worked on as a practise and matter of self interest.
+
