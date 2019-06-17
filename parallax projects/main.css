@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    height: 100%;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    line-height: 1.8em;
+    color:white;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.pimg1{
+    background-image: url('img1.jpg');
+    min-height: 100vh;
+    
+    
+    
+}
+
+.pimg2{
+    background-image: url('img2.jpg');
+    min-height: 400px;
+    background-size: cover
+    
+}
+
+.pimg3{
+    background-image: url('img3.jpg');
+    min-height: 400px;
+    
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    
+    
+}
+
+.section-light{
+    background-color: red
+}
+
+.section-dark{
+    background-color: rgba(0, 0, 255, 0.822)
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+
+
+}
+
