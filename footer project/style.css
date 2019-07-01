@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer{
+    height: auto; background: black; color: white; display: flex;
+}
+
+.box1{
+    width: 11em; margin: 5em;
+}
+
+.quick{
+    display: flex ;flex-direction: column; 
+}
+
+.box4{
+    width: 20em; margin: 5em;
+}
+
+input{
+    width: 70%; height: 25px; color: white; border: white solid 1px; background: black
+}
+
+button{
+  height: 27px; width: 65px; background: white; outline: none; font-size: 0.8em
+}
+
+.quick a{
+    color: white; text-decoration:none
+}
+
+.logo i{
+    padding: 5px
+    
+}

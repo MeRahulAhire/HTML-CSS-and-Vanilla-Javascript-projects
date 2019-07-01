@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>electricity bill</title>
+</head>
+<body>
+    <form style="margin: auto;">
+        Enter Your units:
+      <input type="text" id="input">
+      <input type="button" value="Check Bill" onclick="billcheck()">
+      <div style="margin: 10px; display: flex; border: black 2px solid; width: 300px">
+          Your Bill: <div id="result"></div>
+      </div>
+    </form>
+
+    <script>
+    function billcheck(){
+        var a = parseInt(document.getElementById("input").value);
+        var x = a*5;
+        var y = a*4;
+        var z = a*3;
+    if (a <= 100){
+        document.getElementById("result").innerText = x;
+    }
+
+    else if (a > 100 && a<= 200){
+        document.getElementById("result").innerHTML = y;
+    }
+    else {
+        document.getElementById("result").innerHTML = z;
+    }
+    
+}   
+    
+    </script>
+</body>
+</html>
